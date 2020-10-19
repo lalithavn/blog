@@ -1,0 +1,22 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "Blog"
+theme = "yinyang"
+DefaultContentLanguage = "en"
+
+[author]
+  name = "Lalitha Visvanathan"
+  homepage = "https://hello/"
+
+[params]
+disqus = "" # disqus account name
+extraHead = ''
+mainSections = ["posts"]
+
+[[params.socials]]
+name = "RSS"
+link = "/index.xml"
+
+[[params.socials]]
+name = "About"
+link = "https://"
