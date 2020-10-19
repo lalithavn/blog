@@ -192,7 +192,8 @@ CLOSED: [2020-08-19 Wed 16:23]
 
   ***********************
 
-** TODO கோபம் கோபமாகவருகிறது
+** DONE கோபம் கோபமாகவருகிறது
+CLOSED: [2020-08-25 Tue 13:45]
 :PROPERTIES:
 :EXPORT_FILE_NAME: kobam-kobamaga-varugirathu
 :END:
