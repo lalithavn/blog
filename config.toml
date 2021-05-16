@@ -1,22 +1,20 @@
-baseURL = "https://example.com"
-languageCode = "en-us"
-title = "Blog"
-theme = "yinyang"
-DefaultContentLanguage = "en"
+baseURL = "https://lalithavn.github.io/"
+#disqusShortname = "username"
+#googleAnalytics = "UA-XXXXXXXXX-X"
+title = "Lalitha Visvanathan"
+theme = "hugo-tailwind-journal"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
-[author]
-  name = "Lalitha Visvanathan"
-  homepage = "https://hello/"
+[taxonomies]
+    tag = "tags"
+
+[permalinks]
+    posts = "/posts/:year/:month/:title/"
 
 [params]
-disqus = "" # disqus account name
-extraHead = ''
-mainSections = ["posts"]
+    author = "Lalitha Visvanathan"
+#    avatar = "images/avatar.jpg"
+#    description = "A minimalist journal template for Hugo using TailwindCSS."
+#    tagline = "A minimalist journal template for Hugo using TailwindCSS."
 
-[[params.socials]]
-name = "RSS"
-link = "/index.xml"
-
-[[params.socials]]
-name = "About"
-link = "https://"

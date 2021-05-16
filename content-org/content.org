@@ -3,6 +3,7 @@
 #+HUGO_SECTION: posts
 #+HUGO_AUTO_SET_LASTMOD: f
 #+AUTHOR:
+#+hugo_custom_front_matter: :author "Lalitha Visvanathan"
 #+HUGO_LASTMOD: f
 #+seq_todo: TODO DRAFT CANCEL | DONE
 #+STARTUP: logdone
