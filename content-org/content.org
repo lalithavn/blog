@@ -13,8 +13,7 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :END:
-** DONE Hugo and Tamil
-CLOSED: [2020-09-29 Tue 22:31]
+** TODO Hugo and Tamil
 :PROPERTIES:
 :EXPORT_FILE_NAME: hugo-and-tamil
 :END:

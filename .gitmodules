@@ -4,3 +4,12 @@
 [submodule "themes/hugo-tailwind-journal"]
 	path = themes/hugo-tailwind-journal
 	url = https://github.com/ianrodrigues/hugo-tailwind-journal.git
+[submodule "themes/ezhil"]
+	path = themes/ezhil
+	url = https://github.com/vividvilla/ezhil.git
+[submodule "themes/even"]
+	path = themes/even
+	url = https://github.com/olOwOlo/hugo-theme-even
+[submodule "themes/beyondnothing"]
+	path = themes/beyondnothing
+	url = https://github.com/salcan/BeyondNothing.git
