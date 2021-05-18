@@ -1,0 +1,30 @@
+{{ define "main" }}
+	<main>
+		<article>
+            <div class="posttitle">
+                {{ .Title }}
+            </div>
+            {{ if .Params.Date }}
+            <time>{{ .Date.Format (.Site.Params.PostDateFormatToUse | default "2006-01-02") }}</time>
+            {{ end }}
+            <div class="postmeta">
+                {{ .WordCount }} words | {{ .ReadingTime }} min read
+            </div>
+			<div class="content">
+				{{ .Content }}
+			</div>
+
+
+
+			{{ with .Params.tags }}
+			<div class="tagsdiv">
+				<ul id="tags">
+					{{ range . }}
+					<a id="onetag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+					{{ end }}
+				</ul>
+			</div>
+			{{ end }}
+		</article>
+	</main>
+{{ end }}

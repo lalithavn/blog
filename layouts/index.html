@@ -1,0 +1,30 @@
+{{ define "main" }}
+    <br>
+	<main>
+        <!--
+		<div class="par">
+				{{ range (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+                <div>
+                <div class="pd">{{ .Date.Format .Site.Params.dateFormat }}</div><a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+                </div>
+				{{ end }}
+		</div>
+        <br>
+        -->
+
+        {{ range (where .Site.RegularPages "Type" "in" .Site.Params.mainSections).GroupByDate "2006" }}
+
+        <div class="datekey">
+            {{ .Key }}
+		</div>
+            {{ range .Pages }}
+		<div class="parr">
+                <div>
+                <div class="pdd">{{ .Date.Format "02 Jan" }}</div><a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+                </div>
+                </div>
+		</div>
+            {{ end }}
+        {{ end }}
+	</main>
+{{ end }}

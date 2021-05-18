@@ -1,0 +1,161 @@
+html,
+body {
+/*    font-family: monospace, sans-serif;*/
+/* System Fonts as used by GitHub */
+  font-family: 'Mukta Malar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    max-width: 600px;
+    margin: auto;
+    padding: 1em;
+    line-height: 1.5em;
+}
+
+body {
+    font-size: 22px;
+    background-color: #fafafa;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #ccc;
+  padding: 3px 1em 3px;
+}
+
+a:link, a:visited {
+    color: #0047AB;
+}
+
+.next-post {
+    float:left;
+}
+
+.prev-post {
+    float:right;
+}
+
+.footer {
+    text-align: center;
+}
+
+.menu { padding: 0; padding-bottom: 1.5em;}
+
+.menu div{
+    display:inline;
+    padding-right: 0.5em;
+}
+
+.pd {
+    flex-shrink:0;
+    padding-bottom:.9em;
+}
+
+.par div{
+    display:flex;
+    padding-right: 1em;
+    padding-bottom: 0.7em;
+}
+
+.pdd {
+    flex-shrink:0;
+    padding-bottom:.9em;
+}
+
+.parr div{
+    display:flex;
+    padding-right: 1em;
+    padding-bottom: 0.7em;
+}
+
+.datekey {
+    font-size: xx-large;
+    font-style: bold;
+    padding-bottom: 0.5em;
+}
+
+.name {
+    font-size: xx-large;
+    padding-bottom: 1em;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+hr {
+    border-bottom: 2px solid black;
+}
+
+.tagrender {
+    display: inline;
+    padding-right: 1em;
+}
+
+.tagsrender {
+  padding-bottom: 2em;
+}
+
+figure {
+    margin: 0 auto;
+}
+
+.tagsdiv {
+    border-top: 2px solid black;
+    font-size: small;
+}
+
+footer {
+    border-top: 2px solid black;
+    padding-top: 1em;
+}
+
+#onetag {
+    padding-right: 1em;
+}
+
+.tagscounter {
+    font-style: italic;
+}
+
+.navi-footer {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-bottom:.5em;
+    font-style:italic;
+    font-size:small;
+}
+
+.postmeta {
+    font-size: small;
+    font-style: bold;
+}
+
+.content {
+  padding-bottom: 2em;
+}
+
+
+.seriesrender {
+    display: inline;
+    padding-right: 1em;
+    padding-bottom: 2em;
+}
+
+.serrender {
+    padding-bottom: 1em;
+}
+
+.listheader {
+  font-size: x-large;
+  font-weight: bold;
+  padding-bottom: 1em;
+  padding-top: 1em;
+
+}
+
+.posttitle {
+  font-size: xx-large;
+  font-weight: bold;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  line-height: 1.5em;
+}
