@@ -1,0 +1,20 @@
+baseURL = "https://lalithavn.github.io/"
+#disqusShortname = "username"
+#googleAnalytics = "UA-XXXXXXXXX-X"
+title = "Lalitha Visvanathan"
+theme = "hugo-tailwind-journal"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[taxonomies]
+    tag = "tags"
+
+[permalinks]
+    posts = "/posts/:year/:month/:title/"
+
+[params]
+    author = "Lalitha Visvanathan"
+#    avatar = "images/avatar.jpg"
+#    description = "A minimalist journal template for Hugo using TailwindCSS."
+#    tagline = "A minimalist journal template for Hugo using TailwindCSS."
+

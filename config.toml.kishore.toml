@@ -1,0 +1,63 @@
+baseURL = "https://lalithavn.github.io/"
+languageCode = "en-us"
+title = "Lalitha's Blog"
+theme = ["blank"]
+
+[author]
+  name = "Lalitha Visvanathan"
+
+[params]
+  blogTitle = ""
+  since = 2020
+  dateFormat = "Jan 02, 2006"
+  #dateFormat = "02-01-2006"
+  postDateFormatToUse = "January 2, 2006"
+
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+#[[menu.main]]
+#  name = "About"
+#  weight = 20
+#  identifier = "about"
+#  url = "/about/"
+#[[menu.main]]
+#  name = "Email"
+#  weight = 20
+#  identifier = "email"
+#  url = "v.kish.vanchee+blog@gmail.com"
+#[[menu.main]]
+#  name = "RSS"
+#  weight = 30
+#  identifier = "rss"
+#  url="/index.xml"
+#[[menu.main]]
+#  name = "Tags"
+#  weight = 40
+#  identifier = "tags"
+#  url="/tags/"
+#[[menu.main]]
+#  name = "Series"
+#  weight = 50
+#  identifier = "series"
+#  url="/series/"
+
+#[taxonomies]
+#  tags = "tags"
+#  series = "series"
+
+#[markup]
+#  [markup.highlight]
+#    anchorLineNos = false
+#    codeFences = true
+#    guessSyntax = false
+#    hl_Lines = ""
+#    lineAnchors = ""
+#    lineNoStart = 1
+#    lineNos = true
+#    lineNumbersInTable = true
+#    noClasses = true
+#    style = "emacs"
+#    tabWidth = 4
