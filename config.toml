@@ -48,7 +48,11 @@ theme = ["blank"]
 #  tags = "tags"
 #  series = "series"
 
-#[markup]
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = true
 #  [markup.highlight]
 #    anchorLineNos = false
 #    codeFences = true
