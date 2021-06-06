@@ -1,7 +1,8 @@
 +++
 title = "இப்படிக்கு ராமு"
+date = 2021-06-06T20:16:00+05:30
 tags = ["சிறுகதை"]
-draft = true
+draft = false
 author = "Lalitha Visvanathan"
 +++
 
