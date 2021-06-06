@@ -1,6 +1,7 @@
 +++
 title = "கலி முத்திப் போச்சு"
 date = 2020-08-28T00:48:00+05:30
+tags = ["சிறுகதை"]
 draft = false
 author = "Lalitha Visvanathan"
 +++
