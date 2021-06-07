@@ -48,6 +48,7 @@ theme = ["blank"]
 #  tags = "tags"
 #  series = "series"
 
+# https://gohugo.io/getting-started/configuration-markup/#configure-markup
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
