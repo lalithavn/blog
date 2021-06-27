@@ -1,6 +1,7 @@
 +++
 title = "ஏன் ??"
 date = 2020-11-16T23:53:00+05:30
+tags = ["சிறுகதை"]
 draft = false
 author = "Lalitha Visvanathan"
 +++
