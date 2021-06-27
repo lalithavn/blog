@@ -18,8 +18,13 @@
             {{ end }}
         </div>
         {{ else }}
-    		{{ range .Paginator.Pages }}
+            {{ range .Pages.GroupByDate "2006" }}
+            <div class="datekey">
+                {{ .Key }}
+		    </div>
+                {{ range .Pages }}
     			{{ .Render "summary" }}
+                {{ end }}
     		{{ end }}
 		{{ end }}
 	</main>

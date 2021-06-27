@@ -163,3 +163,13 @@ footer {
 .subtitle {
   font-size: x-large;
 }
+
+.tagheading {
+  font-size: x-large;
+  padding-bottom: 0.5em;
+  text-decoration: underline;
+}
+
+.onetagcollection {
+  padding-bottom: 1em;
+}

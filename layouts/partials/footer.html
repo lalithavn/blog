@@ -1,4 +1,5 @@
 <footer>
+    <!--
     {{ $currentPage := . }}
     {{ if eq $currentPage.Type "posts" }}
     <div class="navi-footer">
@@ -6,5 +7,6 @@
     {{with .NextInSection}}<a href="{{.Permalink}}">{{.Title}} →</a>{{end}}
     </div>
     {{ end }}
+    -->
     <p>&copy; {{ .Site.Params.since }} - {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a></p>
 </footer>
