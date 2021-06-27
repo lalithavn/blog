@@ -23,7 +23,7 @@
 I always wanted to check how I can write in tamil for my blog. I tried reading up on i18 and other methods but I couldn't find anything simple. Finally I settled on Google docs.
 
 Google docs lets me write in Tamil (தமிழ்) and I can just copy paste it in my markdown file.
-** DONE புலியூர்க்குறிச்சியில் ஒட்டுக்கேட்டவை
+** DONE புலியூர்க்குறிச்சியில் ஒட்டுக்கேட்டவை :நகைச்சுவை:
 CLOSED: [2020-08-19 Wed 16:23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: puliyurkurichiyil-ottukettavai

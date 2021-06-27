@@ -1,6 +1,7 @@
 +++
 title = "புலியூர்க்குறிச்சியில் ஒட்டுக்கேட்டவை"
 date = 2020-08-19T16:23:00+05:30
+tags = ["நகைச்சுவை"]
 draft = false
 author = "Lalitha Visvanathan"
 +++
