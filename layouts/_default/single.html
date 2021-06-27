@@ -3,6 +3,11 @@
 		<article>
             <div class="posttitle">
                 {{ .Title }}
+            {{ if .Params.Subtitle }}
+            <div class="subtitle">
+                {{ .Params.Subtitle }}
+            </div>
+            {{ end }}
             </div>
             {{ if .Params.Date }}
             <time>{{ .Date.Format (.Site.Params.PostDateFormatToUse | default "2006-01-02") }}</time>
