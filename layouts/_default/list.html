@@ -2,7 +2,7 @@
 	<main>
 		{{ if .Title }}
 		<div class="listheader">
-			{{ with .Title }}{{ . }}{{ end }}
+			{{ with .Title }}{{ . }}{{ end }} - {{ len .Pages }}
 		</div>
 		{{ end }}
 
