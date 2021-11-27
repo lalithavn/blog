@@ -9,9 +9,6 @@
             </div>
             {{ end }}
             </div>
-            {{ if .Params.Date }}
-            <time>{{ .Date.Format (.Site.Params.PostDateFormatToUse | default "2006-01-02") }}</time>
-            {{ end }}
             <div class="postmeta">
                 {{ .WordCount }} words | {{ .ReadingTime }} min read
             </div>

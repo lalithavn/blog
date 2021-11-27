@@ -1,7 +1,5 @@
 <article>
-    <div class="parr">
-        <div>
-            <div class="pdd">{{ .Date.Format "02 Jan" }}</div><a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
-        </div>
-    </div>
+    <ul>
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    </ul>
 </article>

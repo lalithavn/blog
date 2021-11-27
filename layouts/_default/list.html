@@ -19,9 +19,6 @@
         </div>
         {{ else }}
             {{ range .Pages.GroupByDate "2006" }}
-            <div class="datekey">
-                {{ .Key }}
-		    </div>
                 {{ range .Pages }}
     			{{ .Render "summary" }}
                 {{ end }}
