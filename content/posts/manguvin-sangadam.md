@@ -1,7 +1,7 @@
 ---
 title: "மங்குவின் சங்கடம்"
 date: 2021-11-28T00:49:45+05:30
-draft: true
+draft: false
 tags: ["சிறுவர் கதைகள்"]
 author: "Lalitha Visvanathan"
 ---

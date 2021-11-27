@@ -1,8 +1,8 @@
 ---
 title: "பசுஞ்சோலையில் ஒரு நாள்"
 date: 2021-11-28T00:51:53+05:30
-draft: true
-tags: ["சிறுவர் கதைகள்"]
+draft: false
+tags: ["சிறுகதை"]
 author: "Lalitha Visvanathan"
 ---
 
