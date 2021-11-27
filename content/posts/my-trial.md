@@ -1,6 +1,7 @@
 +++
 title = "my trial"
 date = 2020-11-27
+tags = ["சிறுகதை"]
 draft = false
 author = "Lalitha Visvanathan"
 +++
