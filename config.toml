@@ -12,7 +12,7 @@ theme = ["blank"]
   dateFormat = "Jan 02, 2006"
   #dateFormat = "02-01-2006"
   postDateFormatToUse = "January 2, 2006"
-  storytypes = ["சிறுகதை", "குறுங்கதை", "கவிதை", "நகைச்சுவை", "உரத்த-சிந்தனை"]
+  storytypes = ["சிறுகதை", "குறுங்கதை", "கவிதை", "நகைச்சுவை", "உரத்த-சிந்தனை", "சிறுவர்-கதைகள்"]
 
 [[menu.main]]
   name = "Home"
